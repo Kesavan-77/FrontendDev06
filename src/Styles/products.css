@@ -1,0 +1,32 @@
+.products{
+    margin-top: 15px;
+}
+.products .products-list{
+    display: flex;
+    gap: 1rem;
+}
+.products .products-info{
+    display: flex;
+    gap: 10px;
+}
+.products .products-info h1{
+    color: var(--Grayish-blue);
+}
+.products .products-info h5{
+    font-weight: 700;
+}
+.products .products-info p{
+    color:  var(--Dark-grayish-blue);
+    font-size: 16px;
+}
+@media(max-width: 1024px) {
+    .products .products-list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .products .products-info{
+        display: flex;
+        gap: 30px;
+    }
+  }
